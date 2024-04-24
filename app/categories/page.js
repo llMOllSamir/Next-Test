@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Categories() {
   return (
-    <div className='mt-20'>Categories</div>
-  )
+    <section className="mt-20">
+      <h1 className="text-center my-5">Categories </h1>
+    </section>
+  );
 }

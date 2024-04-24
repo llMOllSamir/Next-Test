@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,8 +11,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html className="scroll-smooth" lang="en">
+      <body className={inter.className + " scroll-smooth"}>
+        <Navbar />
+        <main>{children}</main>
+        <footer></footer>
+      </body>
     </html>
   );
 }
+
+/**
+ * Link Component === href= "hyperlink" target scroll window.scrolTo(0,0)
+ *
+ 
+ */
