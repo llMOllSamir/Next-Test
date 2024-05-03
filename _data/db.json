@@ -1,0 +1,17 @@
+{
+  "products": [
+     { "id": "2", "title": "TOSHIBA", "price": "5000" },
+    { "id": "3", "title": "Samsung", "price": "20000" },
+    { "id": "4", "title": "Nokia", "price": "10000" },
+    { "id": "5", "title": "IPAD", "price": "8000" },
+    { "id": "6", "title": "Xaomi", "price": "15000" }
+  ],
+  "category": [
+    { "id": "1", "title": "Mobiles" },
+    { "id": "2", "title": "Furnetures" },
+    { "id": "3", "title": "Sports" },
+    { "id": "4", "title": "Electronics" },
+    { "id": "5", "title": "Books" },
+    { "id": "6", "title": "Musics" }
+  ]
+}

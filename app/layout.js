@@ -20,9 +20,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-/**
- * Link Component === href= "hyperlink" target scroll window.scrolTo(0,0)
- *
- 
- */
