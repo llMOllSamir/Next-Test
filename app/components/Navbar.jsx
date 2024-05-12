@@ -7,8 +7,8 @@ export default function Navbar() {
     const pathname = usePathname()
     const links = [
         { title: "home", ref: "/" },
-        { title: "products", ref: "/products" },
-        { title: "categories", ref: "/categories" },
+        { title: "about", ref: "/about" },
+        { title: "Blog", ref: "/blog" },
     ]
     return (
         <header className="fixed inset-0 flex justify-center items-center bg-red-600 text-white h-14">
