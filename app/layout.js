@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 export const metadata = {
   title: {
     default: "Fekra",
-    template: "Fekra | %s",
+    template: "Fekra : %s",
   },
   description: "Nextjs Course",
   keywords: ["Nextjs", "Reactjs", "HTML"],
@@ -21,7 +21,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-/**
- *  <title>Fekra</title>
- */
